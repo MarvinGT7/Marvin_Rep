@@ -1,0 +1,15 @@
+Experimentos
+Pruebe los siguientes experimentos: 
+
+1-A Escribir una lista de Python comprensión que devuelva los caracteres individuales de una cadena que no sean caracteres de espacio en blanco. Aplícalo a la cadena "4 y 20 mirlos.n" 
+
+1-B Toma una baraja de cartas, saca las 13 cartas de picas, deja a un lado el resto y baraja las cartas de picas. Idee un algoritmo para ordenarlos por número bajo las restricciones: 
+
+	a. Todas las cartas deben sostenerse en una mano. Esta es la "primera" mano. 
+	b. Inicialmente, las cartas barajadas están todas apiladas con caras en una dirección para que 		solo una carta sea visible. 
+	c. Inicialmente, todas las cartas se sostienen entre el pulgar y el índice de la primera mano. 
+	d. La carta visible en la pila se puede sacar con la otra mano y colocar entre cualquiera de los 	dedos de la primera mano. Solo se puede colocar en el anverso o en el reverso de las cartas en la 	pila de cartas entre esos dedos. 
+	e. La otra mano puede sostener una carta a la vez y debe colocarla en algún lugar de la primera 	mano antes de elegir otra carta visible de una de las pilas. 
+	f. El algoritmo se realiza cuando todas las cartas están ordenadas en una pila en la mano.
+
+Compara la eficiencia de tu algoritmo con la de tus compañeros de clase o amigos.
