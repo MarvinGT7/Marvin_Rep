@@ -1,9 +1,3 @@
-Ejercicio 5:
-
-5.5 Implementar clases de pila y cola basadas en la lista enlazada. La clase Stack debe tener los métodos push(), pop() y peek(). La clase Queue debe tener los métodos insert(), remove() y peek(). Este ejercicio no es demasiado difícil, aunque debe tener cuidado al mantener los pedidos LIFO y FIFO. (Implementar un deque puede ser más difícil, a menos que haga que la lista enlazada esté doblemente vinculada o permita que la eliminación de un extremo sea O(N)). Y crea pruebas para demostrar el correto funcionamiento.
-
-SOLUCION:
-
 class Node:
     def __init__(self, data):
         self.data = data
