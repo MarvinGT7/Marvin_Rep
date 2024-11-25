@@ -1,18 +1,5 @@
-EJERCICIO 3:
-
-8.3 Escribir un programa para implementar la codificación y decodificación de Huffman. Debe hacer lo siguiente: 
-Aceptar un mensaje de texto (cadena). 
-Cree un árbol de Huffman para este mensaje. 
-Cree una tabla de códigos. 
-Codifique el mensaje de texto en binario. 
-Decodifique el mensaje binario de nuevo en texto. 
-Muestra el número de bits en el mensaje binario y el número de caracteres en el mensaje de entrada. 
-Si el mensaje es corto, el programa debería ser capaz de mostrar el árbol de Huffman después de crearlo. Puede utilizar variables de cadena de Python para almacenar mensajes binarios como arreglos de los caracteres 1 y 0. No se preocupe por hacer una manipulación de bits real usando bytearray a menos que realmente lo desee. La forma más fácil de crear la tabla de código en Python es usar el tipo de datos dictionary (dict). Si no le resulta familiar, es esencialmente una matriz que se puede indexar mediante una cadena o un solo carácter. Se utiliza en el módulo de BinarySearchTreeTester.py que tu me devolviste para asignar letras de comandos a registros de comandos. Si elige usar una matriz indexada de enteros, puede usar la función ord() de Python para convertir un carácter en un número entero, pero tenga en cuenta que necesitará una matriz grande si permite caracteres Unicode arbitrarios como emojis (☺) en el mensaje.
-
-
-
-SOLUCION:
-
+import heapq
+from typing import Counter
 
 class HuffmanNode:
     def __init__(self, char, freq):
@@ -31,6 +18,7 @@ class HuffmanNode:
         return self.freq == other.freq
 
 
+
 class HuffmanCoding:
     def __init__(self):
         self.codes = {}         # Tabla de códigos: carácter -> código binario
@@ -39,10 +27,10 @@ class HuffmanCoding:
     def build_tree(self, text):
         """Construye el árbol de Huffman a partir del texto."""
         # Calcular frecuencias de cada carácter
-        freq = Counter(text)
+        frequency = Counter(text)
 
         # Crear una cola de prioridad (min-heap)
-        heap = [HuffmanNode(char, freq) for char, freq in freq.items()]
+        heap = [HuffmanNode(char, freq) for char, freq in frequency.items()]
         heapq.heapify(heap)
 
         # Construir el árbol de Huffman
