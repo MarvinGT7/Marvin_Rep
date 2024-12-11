@@ -1,0 +1,71 @@
+Guía de Ejercicios
+Instrucciones: Cada ejercicio debe ser subido a la cuenta de github de forma individual e incremental.
+
+1.	Suma de Elementos
+Escribe un programa que tome un arreglo de números y calcule la suma de todos los elementos.
+
+2.	Máximo y Mínimo
+Dado un arreglo de números, encuentra el valor máximo y el mínimo sin usar funciones predefinidas como max o min.
+
+3.	Invertir un Arreglo
+Crea una función que reciba un arreglo y devuelva un nuevo arreglo con los elementos en orden inverso.
+
+4.	Buscar un Elemento
+Escribe un programa que tome un arreglo y un número, y determine si el número está presente en el arreglo.
+
+5.	Eliminar Duplicados
+Crea una función que elimine los valores duplicados de un arreglo y devuelva un nuevo arreglo con valores únicos.
+
+6.	Implementación Básica de una Pila
+Crea una clase Pila que implemente las operaciones básicas: push, pop y peek. Prueba la clase añadiendo y quitando elementos.
+
+7.	Verificar Paréntesis Balanceados
+Usa una pila para verificar si una cadena de paréntesis ((), {}, []) está balanceada.
+
+8.	Revertir una Cadena con una Pila
+Escribe una función que use una pila para invertir una cadena de texto.
+
+9.	Pila de Números
+Simula una calculadora que use una pila para realizar operaciones básicas (+, -, *, /). Los números y operaciones se ingresan como una lista.
+
+10.	Historial de Navegador
+Implementa una pila para simular el historial de navegación en un navegador. Agrega una operación para “ir hacia atrás”.
+
+11.	Implementación Básica de una Cola
+Crea una clase Cola que implemente las operaciones básicas: enqueue, dequeue y peek.
+
+12.	Simular una Fila de Banco
+Usa una cola para simular la atención al cliente en un banco. Cada cliente tiene un número asignado y se atiende en orden.
+
+13.	Cola Circular
+Implementa una cola circular con una longitud fija. Incluye métodos para añadir y eliminar elementos.
+
+14.	Reorganizar una Cola
+Dada una cola de números, escribe un programa que reorganice los elementos para que los números pares queden al principio y los impares al final.
+
+15.	Ordenar una Cola
+Escribe un programa que use solo operaciones de cola (enqueue y dequeue) para ordenar los elementos de una cola.
+
+16.	Implementar una Lista Enlazada Simple
+Crea una clase Nodo y una clase ListaEnlazada. Implementa métodos para agregar elementos al final, eliminar un elemento, y buscar un elemento.
+
+17.	Invertir una Lista Enlazada
+Crea un método en la clase ListaEnlazada para invertir el orden de los nodos.
+
+18.	Eliminar Duplicados de una Lista Enlazada
+Escribe un método que recorra una lista enlazada y elimine los nodos con valores duplicados.
+
+19.	Fusionar Dos Listas Enlazadas
+Dadas dos listas enlazadas ordenadas, escribe una función que las combine en una nueva lista enlazada también ordenada.
+
+20.	Implementar un Árbol Binario
+Crea una clase NodoArbol y una clase ArbolBinario. Implementa métodos para insertar elementos, recorrer el árbol en orden (inorder) y buscar un elemento.
+
+21.	Altura de un Árbol Binario
+Escribe una función que calcule la altura de un árbol binario.
+
+22.	Recorrido por Niveles (BFS)
+Implementa un método para recorrer un árbol binario por niveles utilizando una cola.
+
+23.	Contar Hojas en un Árbol Binario
+Escribe una función que cuente cuántos nodos hoja (nodos sin hijos) tiene un árbol binario.
